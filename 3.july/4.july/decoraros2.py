@@ -1,0 +1,1 @@
+def cache_decorator
