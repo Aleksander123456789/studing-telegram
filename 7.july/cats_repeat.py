@@ -3,8 +3,8 @@ import aiohttp
 
 url: str = 'https://api.thecatapi.com/v1/images/search?limit=10'
 
-def delete_cats():
-    for file in 
+# def delete_cats():
+#     for file in 
 
 async def download_cat(session: aiohttp.ClientSession, url: str, n:int):
 
@@ -22,17 +22,17 @@ async def download_cat(session: aiohttp.ClientSession, url: str, n:int):
 
 
 
-async def get_cats():
-    async with aiohttp.ClientSession as session: #даёт гарантию на закрытие сессии
-        response = await session.get(url)
-        json: list[dict[str, str]] = await response.json
+# async def get_cats():
+#     async with aiohttp.ClientSession as session: #даёт гарантию на закрытие сессии
+#         response = await session.get(url)
+#         json: list[dict[str, str]] = await response.json
 
-        url_cats = []
-        for data in json:
-            url_cats.append
+#         url_cats = []
+#         for data in json:
+#             url_cats.append
 
-        tasks = []
-        for i in range(len(url_cats)):
+#         tasks = []
+#         for i in range(len(url_cats)):
  
 async def get_cats_urls():
     url: str = 'https://api.thecatapi.com/v1/images/search'
