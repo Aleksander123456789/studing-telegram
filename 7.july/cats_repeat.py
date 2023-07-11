@@ -3,8 +3,8 @@ import aiohttp
 
 url: str = 'https://api.thecatapi.com/v1/images/search?limit=10'
 
-# def delete_cats():
-#     for file in 
+def delete_cats():
+    for file in 
 
 async def download_cat(session: aiohttp.ClientSession, url: str, n:int):
 
