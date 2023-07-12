@@ -1,0 +1,7 @@
+config.py
+.idea
+*\__pycache__\*
+venv
+.venv
+*.jpg
+hidden_chat_bot.py
