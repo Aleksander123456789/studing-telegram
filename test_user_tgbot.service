@@ -1,0 +1,14 @@
+
+[Unit]
+Description=Telegram Bot
+After=network.target
+
+[Service]
+User=test_user
+Group=test_user
+WorkingDirectory=/home/test_user/PythonJuly/
+Environment="PYTHONPATH=/home/test_user/PythonJuly/"
+ExecStart=/home/test_user/PythonJuly/.venv/bin/python /home/test_user/PythonJuly/emodji.py
+
+[Install]
+WantedBy=multi-user.target
