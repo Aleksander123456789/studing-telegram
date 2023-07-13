@@ -10,11 +10,14 @@ from aiogram.types import message
 
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
-from keyboards import
+from keyboards 
 
 bot = Bot(TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
+class States:
+    name = 'name'
+    ready_to_start
 @dp.messagr_handler(commands=['start'], state='*')
 async def start_handler(message: Message, state: FSMContext):
     await message.answer

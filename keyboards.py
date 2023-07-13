@@ -1,6 +1,7 @@
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardButton, InlineKeyboardMarkup
 
-
+start_button = KeyboardButton("START")
+start
 q1_a = KeyboardButton("< 1k")
 q1_b = KeyboardButton("1k - 10k")
 q1_c = KeyboardButton("10k - 1kk")
