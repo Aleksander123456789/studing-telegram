@@ -8,7 +8,7 @@ User=test_user
 Group=test_user
 WorkingDirectory=/home/test_user/studing-telegram/
 Environment="PYTHONPATH=/home/test_user/studing-telegram/"
-ExecStart=/home/test_user/studing-telegram/.venv/bin/python /home/test_user/studing-telegram/emodji.py
+ExecStart=/home/test_user/studing-telegram/.venv/bin/python /home/test_user/studing-telegram/project/emodji.py
 
 [Install]
 WantedBy=multi-user.target
